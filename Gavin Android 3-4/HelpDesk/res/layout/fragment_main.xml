@@ -11,6 +11,16 @@
     <TextView
         android:id="@+id/section_label"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Tickets"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:id="@android:id/list"
+        android:layout_weight="1"
+
+        </ListView>
 
 </RelativeLayout>
