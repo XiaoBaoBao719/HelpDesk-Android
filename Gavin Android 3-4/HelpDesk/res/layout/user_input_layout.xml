@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="center"
+    tools:context="com.example.helpdesk.MainActivity$PlaceholderFragment" >
+    
+    <TextView
+      android:text="Name"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left"
+      android:textSize="20dp"
+      />
+      
+    <EditText
+      ndroid:id="@+id/edit_name"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_name" 
+        />
+        
+    <TextView
+      android:text="E-mail"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left"
+      android:textSize="20dp"
+      />
+      
+    <EditText
+      android:id="@+id/edit_email"
+      android:layout_weight="1"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:hint="@string/edit_email" 
+      />
+        
+    <TextView
+      android:text="Phone"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left"
+      android:textSize="20dp"
+      />
+     
+    <EditText
+      android:id="@+id/edit_phone"
+      android:layout_weight="1"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:hint="@string/edit_phone" 
+      />
+      
+    <TextView
+      android:text="Role"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="left"
+      android:textSize="20dp"
+      />
+      
+    <Spinner
+    android:id="@+id/role_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+    
+    </LinearLayout>
+  
