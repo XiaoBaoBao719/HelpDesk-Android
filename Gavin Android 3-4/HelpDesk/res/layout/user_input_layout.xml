@@ -2,69 +2,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="center"
-    tools:context="com.example.helpdesk.MainActivity$PlaceholderFragment" >
+    tools:context="com.example.helpdesk.MainActivity$PlaceholderFragment"
+    android:orientation="vertical"
+    >
     
     <TextView
       android:text="Name"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:layout_height="wrap_content"
       android:gravity="left"
-      android:textSize="20dp"
+      android:textSize="30dp"
       />
       
     <EditText
-      ndroid:id="@+id/edit_name"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_name" 
+      android:id="@+id/edit_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/edit_name"
+      android:textSize="25dp"
         />
         
     <TextView
       android:text="E-mail"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:layout_height="wrap_content"
       android:gravity="left"
-      android:textSize="20dp"
+      android:textSize="30dp"
       />
       
     <EditText
       android:id="@+id/edit_email"
-      android:layout_weight="1"
-      android:layout_width="0dp"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:hint="@string/edit_email" 
+      android:hint="@string/edit_email"
+      android:textSize="25dp"
       />
-        
+
     <TextView
       android:text="Phone"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
+      android:layout_height="wrap_content"
       android:gravity="left"
-      android:textSize="20dp"
+      android:textSize="30dp"
       />
      
     <EditText
       android:id="@+id/edit_phone"
-      android:layout_weight="1"
-      android:layout_width="0dp"
-      android:layout_height="wrap_content"
-      android:hint="@string/edit_phone" 
-      />
-      
-    <TextView
-      android:text="Role"
       android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:gravity="left"
-      android:textSize="20dp"
+      android:layout_height="wrap_content"
+      android:hint="@string/edit_phone"
+      android:textSize="25dp"
       />
-      
-    <Spinner
-    android:id="@+id/role_spinner"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content" />
-    
-    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textSize="30dp"/>
+
+</LinearLayout>
   
